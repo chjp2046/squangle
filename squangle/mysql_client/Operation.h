@@ -44,7 +44,7 @@
 #include <string>
 #include <thread>
 #include <vector>
-#include <mysql.h>
+#include "thirdparty/mysql/mysql.h"
 
 #include "thrift/lib/cpp/async/TEventHandler.h"
 #include "thrift/lib/cpp/async/TAsyncTimeout.h"

@@ -18,13 +18,13 @@
 #include <folly/Singleton.h>
 #include <folly/Memory.h>
 
-#include <mysql.h>
+#include "thirdparty/mysql/mysql.h"
 
 #include <unistd.h>
 #include <fcntl.h>
 
 #ifndef NO_LIB_GFLAGS
-#include "common/config/Flags.h"
+#include "thirdparty/gflags/gflags.h"
 DECLARE_int64(async_mysql_timeout_micros);
 #endif
 

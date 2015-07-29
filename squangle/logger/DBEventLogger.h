@@ -10,8 +10,8 @@
 #ifndef COMMON_DB_EVENT_LOGGER_H
 #define COMMON_DB_EVENT_LOGGER_H
 
-#include <mysql.h>
-#include <errmsg.h> // also MySQL
+#include "thirdparty/mysql/mysql.h"
+#include "thirdparty/mysql/errmsg.h" // also MySQL
 
 #include <chrono>
 #include <string>

@@ -23,7 +23,7 @@
 #include <unordered_map>
 
 #include <boost/iterator/iterator_facade.hpp>
-#include <mysql.h>
+#include "thirdparty/mysql/mysql.h"
 #include <chrono>
 
 #include <re2/re2.h>

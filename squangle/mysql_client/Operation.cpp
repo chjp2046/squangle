@@ -10,14 +10,14 @@
 
 #include "squangle/mysql_client/Operation.h"
 
-#include <errmsg.h> // mysql
+#include "thirdparty/mysql/errmsg.h" // mysql
 
 #include "folly/Memory.h"
 #include "folly/experimental/StringKeyedUnorderedMap.h"
 #include "squangle/mysql_client/AsyncMysqlClient.h"
 
 #ifndef NO_LIB_GFLAGS
-#include "common/config/Flags.h"
+#include "thirdparty/gflags/gflags.h"
 DEFINE_int64(async_mysql_timeout_micros,
              60 * 1000 * 1000,
              "default timeout, in micros, for mysql operations");

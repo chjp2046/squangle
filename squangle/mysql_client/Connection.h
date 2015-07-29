@@ -13,7 +13,7 @@
 #include <chrono>
 #include <folly/String.h>
 #include <folly/Format.h>
-#include <mysql.h>
+#include "thirdparty/mysql/mysql.h"
 
 namespace facebook {
 namespace common {

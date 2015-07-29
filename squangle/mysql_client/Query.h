@@ -69,7 +69,7 @@
 
 #include <boost/variant.hpp>
 
-#include <mysql.h>
+#include "thirdparty/mysql/mysql.h"
 
 #include <string>
 

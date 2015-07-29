@@ -18,8 +18,8 @@
 
 #include <vector>
 
-#include <mysql.h>
-#include <mysqld_error.h>
+#include "thirdparty/mysql/mysql.h"
+#include "thirdparty/mysql/mysqld_error.h"
 #include <chrono>
 
 namespace facebook {
